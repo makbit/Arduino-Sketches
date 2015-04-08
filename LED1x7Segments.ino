@@ -5,8 +5,8 @@
     The LED Display has 10 PINS (7-Segments, dot-Segment, two common cathodes).
     The LED Display is connected to digital pins 3..10 of the Arduino UNO.
 
-    The program will display digits 0..9 in infinite loop. Digits will cycle
-    from 0 to 9 every second.
+    The program will display digits 0..9 in infinite loop.
+    Digits will cycle from 0 to 9 every second.
     Variable "nTicks" holds number of seconds since the Arduino was started.
     Created 20 March 2015 by K.M.
 */
@@ -17,7 +17,7 @@ int segC = 5; // right-bottom
 int segD = 6; // bottom
 int segE = 7; // left-bottom
 int segF = 8; // left-top
-int segG = 9; // miggle
+int segG = 9; // middle
 int segH = 10;// dot
 
 
