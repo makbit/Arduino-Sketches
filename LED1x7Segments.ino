@@ -1,13 +1,13 @@
 /*
-    LED1x7Segments - lights a digit on a 7-segments LED display.
+    LED1x7Segments - lights a digit on a 7-segment LED display.
 
     This program drives a LED Display with common cathode.
-    The LED Display has 10 PINS (7-Segments, Dot-Segments, two common cathodes).
+    The LED Display has 10 PINS (7-Segments, dot-Segment, two common cathodes).
     The LED Display is connected to digital pins 3..10 of the Arduino UNO.
 
     The program will display digits 0..9 in infinite loop. Digits will cycle
-    from 0 to 9 every second. Variable nTicks hold number of seconds since
-    the Arduino was started.
+    from 0 to 9 every second.
+    Variable "nTicks" holds number of seconds since the Arduino was started.
     Created 20 March 2015 by K.M.
 */
 
