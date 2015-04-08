@@ -88,10 +88,10 @@ void loop()
 //-----------------------------------------------------//
 void drawDigitFast(int n)
 {
-    byte aPins[8] = {
+    const byte aPins[8] = {
         segA, segB, segC, segD, segE, segF, segG
     };
-    byte aSegments[11][8] = {
+    const byte aSegments[11][8] = {
         //  A     B     C     D     E     F     G
         { HIGH, HIGH, HIGH, HIGH, HIGH, HIGH,  LOW }, // 0
         {  LOW, HIGH, HIGH,  LOW,  LOW,  LOW,  LOW }, // 1
