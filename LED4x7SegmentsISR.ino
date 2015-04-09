@@ -1,5 +1,5 @@
 /*
-    LED4x7Segments - lights a digit on a 4-digit 7-segment LED display.
+    LED4x7SegmentsISR - draw a number on a 4-digit 7-segment LED display.
 
     This program drives 4-digit LED Display with common cathode.
     It uses multiplexing - cycling through digits (1, 2, 3, 4).
@@ -14,7 +14,7 @@
     be used for any usefull task.
     
     This file is free software; you can redistribute it or modify it.
-    Created 25 March 2015 by K.M.
+    Created 27 March 2015 by K.M.
 */
 
 int segA = 3; // top
