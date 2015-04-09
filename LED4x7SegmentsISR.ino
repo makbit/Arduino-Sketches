@@ -11,7 +11,7 @@
     The program will display a counter updated every second.
     
     The code uses Timer #1 interrupt, thus the main loop can
-    be used for any usefull task.
+    be used for any useful task.
     
     This file is free software; you can redistribute it or modify it.
     Created 27 March 2015 by K.M.
@@ -126,7 +126,7 @@ void setup()
 //==============================================================//
 void loop()
 {
-    // Do something usefull
+    // Do something useful
     delay(1000);
     if( ++number > 9999 ) number = 0;
 }
