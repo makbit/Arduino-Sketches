@@ -64,22 +64,22 @@ ISR(TIMER1_COMPA_vect)
             case 1:
                 digitalWrite(digit1, LOW);
                 drawDigitFast( (number/1000) % 10 );
-                nDelay = 4;
+                nDelay = 3;
                 break;
             case 2:
                 digitalWrite(digit2, LOW);
                 drawDigitFast( (number/100) % 10 );
-                nDelay = 4;
+                nDelay = 3;
                 break;
             case 3:
                 digitalWrite(digit3, LOW);
                 drawDigitFast( (number/10) % 10 );
-                nDelay = 4;
+                nDelay = 3;
                 break;
             case 4:
                 digitalWrite(digit4, LOW);
                 drawDigitFast( number % 10 );
-                nDelay = 4;
+                nDelay = 3;
                 break;
         }
     }
