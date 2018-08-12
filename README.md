@@ -7,7 +7,8 @@
 - [ ] [usDistance](/usDistance/) another high quality distance meter
 - [ ] [mySmartCar](mySmartCar) SmartCar (RoboCar+gyroscope) and inertial navigation system
 - [x] [myTFT](myTFT) TFT screen example & BSD joke screen
-- [x] [YM2149-test](YM2149-Test) Yamaha 2149 sound synthesizer start-up
+- [x] [YM2149-1](YM2149-1) My sketch for Yamaha 2149 sound synthesizer
+- [ ] [YM2149-test](YM2149-Test) Yamaha 2149 mixed sketches, documents, schematics.
 
 ### This project shows how to drive 1-digit and 4-digit 7-Segment LED Displays.
 
