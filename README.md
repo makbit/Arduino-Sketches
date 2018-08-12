@@ -4,5 +4,7 @@
 
 LED Displays are used to output numbers or short strings in the Arduino world.
 
-> If you're interested in developing EFM8, CC2510 or STM32 projects feel free to contact me.
+![1x7Segment Display connected to Arduino UNO R3](Arduino_1x7Segment.jpg)
+
+> If you're interested in developing EFM8, CC2510 or STM32 projects feel free to contact me. :pen:
 > For more information visit the website at: https://makbit.com/web/
